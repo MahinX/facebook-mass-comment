@@ -5,7 +5,7 @@ import json
 import time
 
 access_token='Paste your access token here'
-# access_token = raw_input('Paste your access token here :')
+# access_token = raw_input('CAACEdEose0cBAJvBp2wDtZACv1rpARZBRZALOUZBcxrrfIFN5uHZAjkLtFtnZCzpZBtKfxnhELz7Eg93gBDldzjVXQIdxLh74fDNns3eGLrG9VEs93CTa3ZCddY7ak4eo7pQfZB3wGjMwbk5gsX3MhVgwNSCkTF0zxJ04xXYpsWZBVNj1fyB4u9RyyZA4qFAABwH57VNoxHRwFkdQZDZD')
 
 conn = httplib.HTTPSConnection("graph.facebook.com") 
 print 'Please Wait!'
@@ -25,6 +25,6 @@ def comment(url):
             connect.request("POST",path,urllib.urlencode(param_data),{}) 
             time.sleep(0.09)
            
-url='/PUT FB STATUS ID HERE' 
+url='1497784637043672' 
 comment(url) 
 print 'DONE!'
